@@ -10,7 +10,7 @@ terraform {
 variable "node_count" {
   description = "Number of worker nodes"
   type        = number
-  default     = 3
+  default     = 2
 }
 
 # This resource won’t actually be created because we won’t run "terraform apply"
